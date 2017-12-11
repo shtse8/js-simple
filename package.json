@@ -1,6 +1,6 @@
 {
   "name": "js-simple",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All JS common types and utils",
   "author": "shtse8 <shtse8@gmail.com>",
   "scripts": {
@@ -14,6 +14,7 @@
     "types",
     "utils"
   ],
+  "main": "./dist",
   "dependencies": {
     "decimal.js": "^8.0.0",
     "decimal.js-light": "^2.3.1",
