@@ -1,0 +1,31 @@
+{
+  "name": "js-simple",
+  "version": "0.0.1",
+  "description": "All JS common types and utils",
+  "author": "shtse8 <shtse8@gmail.com>",
+  "scripts": {
+    "start:test": "babel-node --env production --watch --force ./test.js"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/shtse8/babel-node/issues",
+  "homepage": "https://github.com/shtse8/babel-node",
+  "repository": "https://github.com/shtse8/babel-node",
+  "keywords": [
+    "types",
+    "utils"
+  ],
+  "dependencies": {
+    "ip-address": "^5.8.8",
+    "decimal.js": "^7.3.0",
+    "decimal.js-light": "^2.3.1",
+    "moment": "^2.19.2",
+    "iterall": "^1.1.3",
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.34",
+    "babel-enhanced-node": "^0.1.0"
+  }
+}
