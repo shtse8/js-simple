@@ -1,31 +1,47 @@
 {
   "name": "js-simple",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "All JS common types and utils",
   "author": "shtse8 <shtse8@gmail.com>",
   "scripts": {
     "start:test": "babel-node --env production --watch --force ./test.js"
   },
   "license": "MIT",
-  "bugs": "https://github.com/shtse8/babel-node/issues",
-  "homepage": "https://github.com/shtse8/babel-node",
-  "repository": "https://github.com/shtse8/babel-node",
+  "bugs": "https://github.com/shtse8/js-simple/issues",
+  "homepage": "https://github.com/shtse8/js-simple",
+  "repository": "https://github.com/shtse8/js-simple",
   "keywords": [
     "types",
     "utils"
   ],
   "dependencies": {
-    "ip-address": "^5.8.8",
-    "decimal.js": "^7.3.0",
+    "decimal.js": "^8.0.0",
     "decimal.js-light": "^2.3.1",
-    "moment": "^2.19.2",
+    "eslint": "^4.13.0",
+    "ip-address": "^5.8.8",
     "iterall": "^1.1.3",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "moment": "^2.19.4"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.34",
     "@babel/core": "^7.0.0-beta.34",
-    "babel-enhanced-node": "^0.1.0"
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-stage-2": "^7.0.0-beta.34",
+    "@babel/runtime": "^7.0.0-beta.34",
+    "babel-enhanced-node": "^0.1.6",
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-root-import": "^5.1.0",
+    "eslint": "^4.13.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
