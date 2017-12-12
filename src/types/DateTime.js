@@ -11,7 +11,7 @@ export class DateTime extends DateTimeSimple {
     return moment.tz.guess()
   }
 
-  static get timeZones () {
+  static get timezones () {
     return moment.tz.names()
   }
 }
