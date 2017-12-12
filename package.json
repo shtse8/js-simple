@@ -1,6 +1,6 @@
 {
   "name": "js-simple",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "All JS common types and utils",
   "author": "shtse8 <shtse8@gmail.com>",
   "scripts": {
@@ -22,7 +22,8 @@
     "ip-address": "^5.8.8",
     "iterall": "^1.1.3",
     "lodash": "^4.17.4",
-    "moment": "^2.19.4"
+    "moment": "^2.19.4",
+    "moment-timezone": "^0.5.14"
   },
   "peerDependencies": {},
   "devDependencies": {

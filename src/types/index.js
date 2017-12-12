@@ -1,5 +1,6 @@
 export { IP } from './IP'
-export { DateTime } from './DateTime'
 export { Duration } from './Duration'
+export { DateTimeSimple } from './DateTimeSimple'
+export { DateTime } from './DateTime'
 export { DecimalSimple } from './DecimalSimple'
 export { Decimal } from './Decimal'
