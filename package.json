@@ -35,7 +35,7 @@
     "@babel/runtime": "^7.0.0-beta.34",
     "babel-enhanced-node": "^0.1.6",
     "babel-eslint": "^8.0.3",
-    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-root-import": "^6.0.0",
     "eslint": "^4.13.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-friendly-formatter": "^3.0.0",
